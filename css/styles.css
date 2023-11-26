@@ -503,3 +503,8 @@ body {
 .social-list-footer {
     gap: 16px;
 }
+
+.footer-social-link:focus,
+.footer-social-link:hover {
+    background-color: #31d0aa;
+}
