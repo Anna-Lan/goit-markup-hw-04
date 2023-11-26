@@ -107,10 +107,10 @@ body {
     color: #404bbf;
 }
 
-.menu-link:active::after {
+.menu-link::after {
     color: #404BBF;
     /* text-decoration: underline; */
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -124,9 +124,9 @@ body {
     margin-bottom: 0;
 }
 
-.menu-link:active {
+/* .menu-link:active {
     padding-bottom: 0;
-}
+} */
 
 .address-header {
     font-style: normal;
@@ -350,7 +350,7 @@ body {
 
 .social-link:hover, 
 .social-link:focus {
-    background-color: #31D0AA;
+    background-color: #404bbf;
 }
 
 .social-link-icon {
